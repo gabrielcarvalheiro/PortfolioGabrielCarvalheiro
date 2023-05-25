@@ -1,0 +1,48 @@
+@font-face {
+    font-family: league spartan;
+    src: url(font/LeagueSpartan-Regular.ttf);
+}
+
+body{
+    font-family: league spartan;
+    margin: 0;
+    padding: 0;
+    background-color: #1F242D;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 16px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.fotoperfil{
+    width: 40px;
+    height: 40px;
+}
+.portfolio {
+    text-align: center;
+    margin-left: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 32px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav .imgcon {
+    width: 52px;
+    height: 52px;
+}
